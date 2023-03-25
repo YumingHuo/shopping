@@ -36,9 +36,11 @@ li {
     color: red;
     font-weight: 700;
 }
+
+/* search */
 .search {
     display: flex;
-    margin: 10px 0;
+    margin: 10px;
     width: 100%;
 }
 
@@ -55,4 +57,30 @@ li {
 .search-item {
     flex: 0 1 25%;
     text-align: center;
+}
+
+/* banner */
+.banner {
+    width: auto;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.banner ul {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 7px;
+    padding: 0 3px;
+}
+
+.banner ul li {
+    margin: 0 1px;
+    color: #f7f7f7;
 }
